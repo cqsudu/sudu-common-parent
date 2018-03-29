@@ -5,199 +5,121 @@ package com.ledo.spring.jpa;
  */
 public class FilterConstants {
 
-    /**
-     * 分隔
-     */
+    //分隔
     public static final String SPLIT = "#";
 
-    /**
-     * =
-     */
+    // =
     public static final String EQ = "eq";
 
-    /**
-     * !=
-     */
+    // !=
     public static final String NE = "ne";
 
-    /**
-     * >
-     */
+    // >
     public static final String GT = "gt";
 
-    /**
-     * >
-     */
+    // >
     public static final String GTLONG = "gtLong";
 
-    /**
-     * >
-     */
+    // >
     public static final String GTDOUBLE = "gtDouble";
 
-    /**
-     * >
-     */
+    // >
     public static final String GTDATE = "gtDate";
 
-    /**
-     * >=
-     */
+    // >=
     public static final String GE = "ge";
 
-    /**
-     * >=
-     */
+    // >=
     public static final String GESTRING = "geString";
 
-    /**
-     * >=
-     */
+    // >=
     public static final String GELONG = "geLong";
 
-    /**
-     * >=
-     */
+    // >=
     public static final String GEDOUBLE = "geDouble";
 
-    /**
-     * >=
-     */
+    // >=
     public static final String GEDATE = "geDate";
 
-    /**
-     * <
-     */
+    // <
     public static final String LT = "lt";
 
-    /**
-     * <
-     */
+    // <
     public static final String LTLONG = "ltLong";
 
-    /**
-     * <
-     */
+    // <
     public static final String LTDOUBLE = "ltDouble";
 
-    /**
-     * <
-     */
+    // <
     public static final String LTDATE = "ltDate";
 
-    /**
-     * <=
-     */
+    // <=
     public static final String LE = "le";
 
-    /**
-     * <=
-     */
+    // <=
     public static final String LESTRING= "leString";
 
-    /**
-     * <=
-     */
+    // <=
     public static final String LELONG = "leLong";
 
-    /**
-     * <=
-     */
+    // <=
     public static final String LEDOUBLE = "leDouble";
 
-    /**
-     * <=
-     */
+    // <=
     public static final String LEDATE = "leDate";
 
-    /**
-     * LIKE
-     */
+    // LIKE
     public static final String LIKE = "like";
 
-    /**
-     * NOTLIKE
-     */
+    // NOTLIKE
     public static final String NOTLIKE = "notLike";
 
-    /**
-     * IN
-     */
+    // IN
     public static final String IN = "in";
 
-    /**
-     * NOTIN
-     */
+    // NOTIN
     public static final String NOTIN = "notIn";
 
-    /**
-     * BETWEEN
-     */
+    // BETWEEN
     public static final String BETWEEN = "between";
 
-    /**
-     * BETWEEN
-     */
+    // BETWEEN
     public static final String BETWEENLONG = "betweenLong";
 
-    /**
-     * BETWEEN
-     */
+    // BETWEEN
     public static final String BETWEENSTRING = "betweenString";
 
-    /**
-     * BETWEENDATE
-     */
+    // BETWEENDATE
     public static final String BETWEENDATE = "betweenDate";
 
-    /**
-     * LO
-     */
+    // LO
     public static final String LO = "lo";
 
-    /**
-     * GO
-     */
+    // GO
     public static final String GO = "go";
 
-    /**
-     * ISNULL
-     */
+    // ISNULL
     public static final String ISNULL = "isNull";
 
-    /**
-     * ISNOTNULL
-     */
+    // ISNOTNULL
     public static final String ISNOTNULL = "isNotNull";
 
-    /**
-     * ISEMPTY
-     */
+    // ISEMPTY
     public static final String ISEMPTY = "isEmpty";
 
-    /**
-     * ISNOTEMPTY
-     */
+    // ISNOTEMPTY
     public static final String ISNOTEMPTY = "isNotEmpty";
 
-    /**
-     * ASC
-     */
+    // ASC
     public static final String ASC = "asc";
 
-    /**
-     * DESC
-     */
+    // DESC
     public static final String DESC = "desc";
 
-    /**
-     * OR
-     */
+    // OR
     public static final String OR = "or";
 
-    /**
-     * AND
-     */
+    // AND
     public static final String AND = "and";
 
 }

@@ -12,7 +12,6 @@ public class MoneyUtils {
      * 分转元
      *
      * @param fen
-     * @return
      */
     public static String fenToYuan(Integer fen){
         float r = fen==null?0.00f:fen/100.00f;
@@ -25,7 +24,6 @@ public class MoneyUtils {
      * 分转元
      *
      * @param fen
-     * @return
      */
     public static String fenToYuan(Long fen){
         float r = fen==null?0.00f:fen/100.00f;
@@ -38,7 +36,6 @@ public class MoneyUtils {
      * 分转元
      *
      * @param fen
-     * @return
      */
     public static Double fenToYuanDouble(Integer fen){
         float r = fen==null?0.00f:fen/100.00f;
@@ -50,7 +47,6 @@ public class MoneyUtils {
      * 分转元
      *
      * @param fen
-     * @return
      */
     public static Double fenToYuanDouble(Long fen){
         float r = fen==null?0.00f:fen/100.00f;
@@ -62,7 +58,6 @@ public class MoneyUtils {
      * 元转分
      *
      * @param y
-     * @return
      */
     public static long yuanToFen(String y){
         if(Objects.isNull(y) || "".equals(y.trim())){
@@ -76,7 +71,6 @@ public class MoneyUtils {
      * 元转分
      *
      * @param y
-     * @return
      */
     public static int yuanToFenOfInt(String y){
         if(Objects.isNull(y) || "".equals(y.trim())){
@@ -90,7 +84,6 @@ public class MoneyUtils {
      * 元转分
      *
      * @param y
-     * @return
      */
     public static long yuanToFenOfLong(String y){
         if(Objects.isNull(y) || "".equals(y.trim())){
@@ -104,7 +97,6 @@ public class MoneyUtils {
      * 元转分
      *
      * @param y
-     * @return
      */
     public static long yuanToFen(double y){
         return Math.round(y*100);
@@ -114,7 +106,6 @@ public class MoneyUtils {
      * 元转分
      *
      * @param y
-     * @return
      */
     public static int yuanToFenIntoInt(double y){
         return (int)Math.round(y*100);
