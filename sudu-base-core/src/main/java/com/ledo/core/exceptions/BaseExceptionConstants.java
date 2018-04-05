@@ -7,7 +7,7 @@ public interface BaseExceptionConstants {
         long SYSUSER_EXCEPTION_START_CODE = 12000; //SysUser错误code开始12000结束于12999
         long USER_EXCEPTION_START_CODE = 13000; //User错误code开始13000结束于13999
         long WEIXIN_EXCEPTION_START_CODE = 14000; //Weixin错误code开始14000结束于14999
-        long VALIDATION_EXCEPTION_START_CODE = 14000; //VALIDATION错误code开始15000结束于15999
+        long VALIDATION_EXCEPTION_START_CODE = 15000; //VALIDATION错误code开始15000结束于15999
 
     }
 
