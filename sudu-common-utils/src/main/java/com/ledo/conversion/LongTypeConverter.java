@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * {@link Long}的类型转换器。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class LongTypeConverter extends AbstractTypeConverter<Long> {
 

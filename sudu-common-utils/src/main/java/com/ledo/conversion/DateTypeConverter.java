@@ -15,7 +15,6 @@ import java.util.Locale;
 /**
  * {@link Date}的类型转换器。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class DateTypeConverter extends AbstractTypeConverter<Date> {
 

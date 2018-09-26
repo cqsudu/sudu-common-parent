@@ -6,7 +6,6 @@ import java.util.List;
 /**
  * short数组的类型转换器。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class ShortPrimitiveArrayTypeConverter extends ArrayTypeConverterSupport<short[]> {
 

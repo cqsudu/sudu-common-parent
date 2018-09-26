@@ -12,7 +12,6 @@ import java.lang.ref.SoftReference;
 /**
  * 带有回调清除功能的软引用对象。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  * @param <T> 引用类型
  */
 public abstract class FinalizableSoftReference<T> extends SoftReference<T>

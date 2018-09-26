@@ -10,6 +10,5 @@ package com.ledo.collection;
 /**
  * 表示可以自动清理的<strong>标志性</strong>接口。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public interface AutoClearable {}

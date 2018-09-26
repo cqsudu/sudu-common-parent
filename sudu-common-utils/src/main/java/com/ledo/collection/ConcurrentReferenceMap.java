@@ -42,7 +42,6 @@ import java.util.concurrent.ConcurrentMap;
  *
  * <p>该实现不支持参数为 null。如果传入 null 则会抛出 {@link NullPointerException}。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  * @param <K> 此映射维护的键类型
  * @param <V> 映射值的类型
  */
@@ -471,7 +470,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 用作 K 的引用类型。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    */
   public static enum ReferenceKeyType {
 
@@ -491,7 +489,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 用作 V 的引用类型。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    */
   public static enum ReferenceValueType {
 
@@ -511,7 +508,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 引用类型中的对象的另一个包装器，该包装器实现为引用类型中的对象保持 put 与 get 时用到的 hashCode 和 equals 方法的一致性。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    */
   protected static class ReferenceWrapper {
 
@@ -564,7 +560,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 专用于 key 的引用类型中的对象的另一个包装器 。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    */
   protected static class KeyReferenceWrapper extends ReferenceWrapper {
 
@@ -581,7 +576,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 专用于 value 的引用类型中的对象的另一个包装器。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    */
   protected static class ValueReferenceWrapper extends ReferenceWrapper {
 
@@ -598,7 +592,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 弱引用对象的键类。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    * @param <T> 引用类型
    */
   protected class FinalizableKeyWeakReference<T> extends FinalizableWeakReference<T>
@@ -635,7 +628,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 弱引用对象的值类。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    * @param <T> 引用类型
    */
   protected class FinalizableValueWeakReference<T> extends FinalizableWeakReference<T>
@@ -673,7 +665,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 软引用对象的键类。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    * @param <T> 引用类型
    */
   protected class FinalizableKeySoftReference<T> extends FinalizableSoftReference<T>
@@ -710,7 +701,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 软引用对象的值类。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    * @param <T> 引用类型
    */
   protected class FinalizableValueSoftReference<T> extends FinalizableSoftReference<T>
@@ -748,7 +738,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 虚引用对象的键类。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    * @param <T> 引用类型
    */
   protected class FinalizableKeyPhantomReference<T> extends FinalizablePhantomReference<T>
@@ -785,7 +774,6 @@ public class ConcurrentReferenceMap<K, V> extends AbstractMap<K, V>
   /**
    * 虚引用对象的值类。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    * @param <T> 引用类型
    */
   protected class FinalizableValuePhantomReference<T> extends FinalizablePhantomReference<T>

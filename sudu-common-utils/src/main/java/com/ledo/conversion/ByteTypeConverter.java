@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * {@link Byte}的类型转换器。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class ByteTypeConverter extends AbstractTypeConverter<Byte> {
 

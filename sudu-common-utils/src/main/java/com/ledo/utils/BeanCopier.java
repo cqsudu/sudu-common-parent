@@ -134,9 +134,6 @@ public class BeanCopier {
 
     /**
      * 当拷贝属性不兼容时的处理规则。
-     *
-     * @author Agreal·Lee (e-mail:lixiang@yiji.com)
-     * @since 2.1
      */
     public static enum NoMatchingRule {
 

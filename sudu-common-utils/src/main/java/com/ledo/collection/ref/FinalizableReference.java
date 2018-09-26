@@ -10,7 +10,6 @@ package com.ledo.collection.ref;
 /**
  * 带有回调清除功能的引用类型。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  * @param <T> 引用对象的类型
  */
 public interface FinalizableReference<T> {

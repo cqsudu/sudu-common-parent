@@ -24,7 +24,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * 用做 ReferenceMap 的清除引用的引用队列。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class FinalizableReferenceQueue extends ReferenceQueue<Object> {
 
@@ -155,7 +154,6 @@ public class FinalizableReferenceQueue extends ReferenceQueue<Object> {
   /**
    * 清理守护线程。
    *
-   * @author Agreal·Lee (e-mail:lixiang@yiji.com)
    */
   public static class CleanUpThread extends Thread {
 

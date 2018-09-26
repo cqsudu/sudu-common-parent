@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * short 的类型转换器。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class ShortPrimitiveTypeConverter extends AbstractTypeConverter<Short> {
 

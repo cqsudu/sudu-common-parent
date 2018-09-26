@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * double 的类型转换器。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class DoublePrimitiveTypeConverter extends AbstractTypeConverter<Double> {
 

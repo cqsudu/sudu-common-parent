@@ -12,7 +12,6 @@ import java.lang.ref.PhantomReference;
 /**
  * 带有回调清除功能的虚引用对象。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  * @param <T> 引用类型
  */
 public abstract class FinalizablePhantomReference<T> extends PhantomReference<T>

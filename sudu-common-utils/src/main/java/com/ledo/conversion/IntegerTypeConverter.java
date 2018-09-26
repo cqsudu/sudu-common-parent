@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * {@link Integer}的类型转换器。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class IntegerTypeConverter extends AbstractTypeConverter<Integer> {
   @Override

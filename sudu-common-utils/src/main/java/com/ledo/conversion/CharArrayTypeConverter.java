@@ -6,7 +6,6 @@ import java.util.List;
 /**
  * char数组的类型转换器。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class CharArrayTypeConverter extends ArrayTypeConverterSupport<char[]> {
 

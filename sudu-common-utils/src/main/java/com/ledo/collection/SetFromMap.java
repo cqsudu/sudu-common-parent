@@ -17,7 +17,6 @@ import java.util.*;
  * <p>该 {@link Set} 的特性与被包装的 {@link Map#keySet()} 相同但是支持 add 操作（除非被包装的 {@link Map#put(Object,
  * Object)} 本身不可用），底层实现是调用 {@link Map#put(Object, Object)} 。对于 value ，会使用 {@link #defaultV}。
  *
- * @author Agreal·Lee (e-mail:lixiang@yiji.com)
  */
 public class SetFromMap<E, V> extends AbstractSet<E> implements Set<E>, Serializable {
 
