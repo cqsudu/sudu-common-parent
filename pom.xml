@@ -65,6 +65,7 @@
         <module>sudu-spring-boot</module>
         <module>sudu-spring-jpa</module>
         <module>sudu-common-utils</module>
+        <module>sudu-components</module>
     </modules>
 
     <dependencyManagement>
